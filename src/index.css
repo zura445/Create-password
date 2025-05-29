@@ -5,6 +5,7 @@
   --color-gray-800: #817d92;
   --color-black-700: #24232c;
   --color-white: #ffff;
+  --color-green-200: #a4ffaf;
 }
 
 body {
@@ -14,4 +15,55 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: black;
+}
+
+/*line*/
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 8px;
+  background: #a4ffaf;
+  border-radius: 4px;
+}
+
+input[type="range"]::-moz-range-track {
+  height: 8px;
+  background: #a4ffaf;
+  border-radius: 4px;
+}
+
+input[type="range"]::-ms-track {
+  height: 8px;
+  background: #a4ffaf;
+  border-radius: 4px;
+}
+
+/*Circle*/
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 40px;
+  width: 20px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+  margin-top: -3px;
+}
+
+input[type="range"]::-moz-range-thumb {
+  border: 1px solid #000000;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+input[type="range"]::-ms-thumb {
+  border: 1px solid #000000;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+  margin-top: 0px;
 }

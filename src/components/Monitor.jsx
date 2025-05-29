@@ -6,7 +6,7 @@ function Monitor() {
       <p className="text-gray-800 text-2xl text-center">Password Generator</p>
       <div className="bg-black-700 flex justify-between items-center py-5.5 px-8 mt-6">
         <div className="text-3xl text-white ">PTx1f5DaFX</div>
-        <div className="">
+        <div className="cursor-pointer">
           <img src="copy.png" alt="" />
         </div>
       </div>
